@@ -183,10 +183,10 @@
 #print("Multiplication of two numbers is: ",mul)
 #print("Division of two numbers is: ",div)
 
-n=0
-def series(num):
-    if num==10:
-        return n+series
-    print(num)
-    series(num+1)
-print(series(3))
+#n=0
+#def series(num):
+#    if num==10:
+#        return n+series
+#    print(num)
+#    series(num+1)
+#print(series(3))
