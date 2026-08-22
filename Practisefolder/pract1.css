@@ -1,0 +1,74 @@
+.top{
+    display: flex;
+    gap: 10px;
+    color: azure;
+   
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    background-color: goldenrod;
+    padding: 10px 20px;
+}
+.button{ 
+    gap: 10px;
+    color: white;
+    transition: 0.3s;
+    
+}
+
+button:hover{
+    background-color: burlywood;
+    transform: scale(1.5);
+}
+
+.search{
+    gap: 20px;
+}
+.cards{
+    display: flex; 
+    gap: 20px;
+    justify-content: center;
+    color: azure;
+    transition: 0.3s;
+    border-radius: 10px;
+    padding: 20px;
+}
+.cards:hover{
+    background-color: aqua;
+    color: aqua;
+}
+.card1{
+    border: 10px inset goldenrod;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: goldenrod;
+}
+card1:hover{
+ background-color: aqua;
+    color: aqua;
+}
+.card2{
+    border: 10px outset goldenrod;
+    background-color: goldenrod; padding: 20px;
+    border-radius: 10px;
+}
+.card3{
+    border: 6px inset goldenrod;
+        background-color: goldenrod;
+         padding: 20px;
+    border-radius: 10px;
+
+}
+.text{
+    text-align: center;
+    color: azure;
+    line-height: 2px;
+    
+}
+body{
+    background-color: rgb(57, 56, 56);
+}

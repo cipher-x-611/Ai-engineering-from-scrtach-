@@ -1,0 +1,39 @@
+h1{
+    color: red;
+}
+h2{
+    color: goldenrod;
+}
+.Navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: start;
+}
+.text{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.card,.card1,.card2{
+border: 3px solid black;
+    padding: 20px;
+    gap: 2px 0;
+    flex: 1;
+    min-height: 30px;
+}
+.card{
+    justify-content: flex-start;
+    background-color: aqua;
+    border: 2px solid aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cards{
+    display: flex;
+    background-color: grey;
+}

@@ -1,0 +1,13 @@
+#title{ 
+    color: greenyellow;
+}
+.info{
+    color: burlywood ;
+}
+h2{
+    color: blueviolet;
+}
+*{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+body{
+    background-color: lightcyan;
+}
