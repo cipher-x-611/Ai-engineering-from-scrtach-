@@ -1,0 +1,2 @@
+hello world
+class is going to start from 10:00 am

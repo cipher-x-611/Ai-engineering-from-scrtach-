@@ -193,4 +193,10 @@
 
 
 file=open("file.txt","w")
-file.write("hello world")   
+file.write("hello world")
+file.write("\n" \
+"class is going to start from 10:00 am")  
+file.close()
+file=open("file.txt","r")
+print(file.read())
+file.close()
