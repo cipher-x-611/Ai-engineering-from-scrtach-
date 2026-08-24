@@ -192,18 +192,38 @@
 #print(series(3))
 
 
-file=open("file.txt","w")
-file.write("hello world")
-file.write("\n" \
-"class is going to start from 10:00 am")  
-file.close()
-file=open("file.txt","r")
-print(file.read())
-file.close()
-file=open("file.txt","a")
-file.write("\n" \
-"this is appended text")  
-file.close()
-file=open("file.txt","r")
-print(file.read())
-file.close()
+#file=open("file.txt","w")
+#file.write("hello world")
+#file.write("\n" \
+#"class is going to start from 10:00 am")  
+#file.close()
+#file=open("file.txt","r")
+#print(file.read())
+#file.close()
+#file=open("file.txt","a")
+#file.write("\n" \
+#"this is appended text")  
+#file.close()
+#file=open("file.txt","r")
+#print(file.read())
+#file.close()
+
+
+#json file practise
+import json
+student={
+    "name":"rehan",
+    "age":20,
+    "department":"software engineering",
+    "section":"C"
+}
+with open("student.json","w") as f:
+    json.dump(student,f)
+    import json
+with open("student.json","r") as f:
+    data=json.load(f)
+    print(data)
+    import logging
+logging.basicConfig(filename="logfile.log",level=logging.INFO,format="%(asctime)s - %(levelname)s - %(message)s")
+logging.info("This is an info message")
+logging.debug("This is a debug message")
