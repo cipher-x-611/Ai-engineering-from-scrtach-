@@ -190,3 +190,7 @@
 #    print(num)
 #    series(num+1)
 #print(series(3))
+
+
+file=open("file.txt","w")
+file.write("hello world")   
