@@ -1,4 +1,4 @@
-# Student Profile Git & GitHub Capstone
+# AI Engineering Git & GitHub Masterclass
 
 ## About
 
