@@ -1,3 +1,4 @@
-# My Git Engineering Mission
+# Student Profile Git & GitHub Capstone
 
-This project is my first hands-on Git practice for AI Engineering From Scratch.
+## About
+A practice project built to demonstrate my Git and GitHub engineering workflow.
