@@ -1,4 +1,4 @@
-# Advanced AI Engineering Workspacegit 
+# AI Engineering Git & GitHub Masterclass
 
 ## About
 
